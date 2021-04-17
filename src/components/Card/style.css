@@ -1,0 +1,68 @@
+.card-header {
+  text-align: center;
+  padding: 20px 20px 65px 20px;
+  background-color: lightseagreen;
+  color: #eaeaea;
+  overflow: hidden;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 350px;
+  height: 250px;
+  border-radius: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 3px 5px #eaeaea;
+}
+
+.avatar {
+  height: 90px;
+  width: 90px;
+  position: relative;
+  top: -60px;
+  left: 0;
+  display: flex;
+  align-self: center;
+  border: 10px solid gray;
+  border-radius: 50%;
+  background-image: url("https://rickandmortyapi.com/api/character/avatar/1.jpeg");
+  background-size: contain;
+  background-position: center;
+}
+.attributes {
+  position: relative;
+  top: -50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.item {
+  color: gray;
+  font-size: 20px;
+  display: flex;
+  flex-grow: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #1aa3c9;
+  border-radius: 25px;
+  transition-duration: 0.3s;
+}
+.item:hover {
+  cursor: pointer;
+  transition-duration: 0.3s;
+  box-shadow: #eaeaea 2px 2px;
+}
