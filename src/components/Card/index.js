@@ -9,8 +9,8 @@ export default function Card() {
       <main className="card-main">
         <div className="avatar"></div>
         <div className="attributes">
-          <div className="item">Human</div>
-          <div className="item">Male</div>
+          <div className="item">Ficha</div>
+          <div className="item">Eliminar</div>
         </div>
       </main>
     </div>
